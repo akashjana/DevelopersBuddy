@@ -105,6 +105,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="images\avatar.png" />
+    <Content Include="images\down-color.png" />
+    <Content Include="images\down-empty.png" />
+    <Content Include="images\map.svg" />
+    <Content Include="images\up-color.png" />
+    <Content Include="images\up-empty.png" />
+    <Content Include="images\user.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -132,7 +139,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
