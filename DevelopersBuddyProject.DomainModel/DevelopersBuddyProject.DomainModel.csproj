@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Answer.cs" />
     <Compile Include="Category.cs" />
     <Compile Include="DevelopersBuddyDatabaseDbContext.cs" />
@@ -58,6 +59,9 @@
     <Compile Include="Question.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Vote.cs" />
+=======
+    <Compile Include="Properties\AssemblyInfo.cs" />
+>>>>>>> aef47eb1d69632ea9d6cb035da30544836c94d8b
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
