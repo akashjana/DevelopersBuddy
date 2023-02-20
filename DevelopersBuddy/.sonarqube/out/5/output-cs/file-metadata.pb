@@ -1,0 +1,9 @@
+l
+cC:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.DomainModel\Answer.csutf-8n
+eC:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.DomainModel\Category.csutf-8†
+}C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.DomainModel\DevelopersBuddyDatabaseDbContext.csutf-8}
+tC:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.DomainModel\Properties\AssemblyInfo.csutf-8n
+eC:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.DomainModel\Question.csutf-8j
+aC:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.DomainModel\User.csutf-8j
+aC:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.DomainModel\Vote.csutf-8¢
+–C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.DomainModel\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.csutf-8

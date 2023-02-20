@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>DevelopersBuddy.Tests</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Test</ProjectType>
+  <ProjectGuid>310cebc9-0292-4f6b-83f9-ea4f79e977e1</ProjectGuid>
+  <FullPath>C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddy.Tests\DevelopersBuddy.Tests.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddy\.sonarqube\conf\1\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddy\.sonarqube\out\1\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddy\.sonarqube\out\1</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+</ProjectInfo>

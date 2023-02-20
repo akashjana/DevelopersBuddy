@@ -1,0 +1,11 @@
+1.
+C:\"Program Files"\sonarqube-8.9\sonar-scanner-msbuild-5.11.0.60783-net46\SonarScanner.MSBuild.exe begin /k:"DevelopersBuddyKey" /d:sonar.host.url="http://localhost:9000" /d:sonar.login="e85d2fe41b2ac21ca49166425539ca458ddb7086"
+
+2.
+MsBuild.exe /t:Rebuild
+
+3.
+C:\"Program Files"\sonarqube-8.9\sonar-scanner-msbuild-5.11.0.60783-net46\SonarScanner.MSBuild.exe end /d:sonar.login="e85d2fe41b2ac21ca49166425539ca458ddb7086"
+
+
+2,3 step for rerun scanner
