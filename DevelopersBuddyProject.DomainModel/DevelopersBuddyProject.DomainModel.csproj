@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8E0DC495-D92A-4840-A0DA-6CA5649224DD}</ProjectGuid>
+    <ProjectGuid>{5A6FB663-899E-45B8-8D53-6C0BBF50D0AD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DevelopersBuddyProject.DomainModel</RootNamespace>
@@ -51,7 +51,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="Answer.cs" />
     <Compile Include="Category.cs" />
     <Compile Include="DevelopersBuddyDatabaseDbContext.cs" />
@@ -59,9 +58,6 @@
     <Compile Include="Question.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Vote.cs" />
-=======
-    <Compile Include="Properties\AssemblyInfo.cs" />
->>>>>>> aef47eb1d69632ea9d6cb035da30544836c94d8b
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
