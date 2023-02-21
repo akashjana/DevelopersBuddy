@@ -1,1 +1,7 @@
-﻿C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.ViewModel\Properties\AssemblyInfo.cs
+﻿C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddy.Tests\UnitTest1.cs
+C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddy.Tests\Properties\AssemblyInfo.cs
+C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddy\packages\MSTest.TestAdapter.1.2.0\build\_common\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddy\packages\MSTest.TestAdapter.1.2.0\build\_common\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddy\packages\MSTest.TestAdapter.1.2.0\build\_common\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddy.Tests\app.config
+C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddy.Tests\packages.config

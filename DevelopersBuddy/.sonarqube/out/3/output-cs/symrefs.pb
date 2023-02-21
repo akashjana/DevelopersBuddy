@@ -1,2 +1,2 @@
-w
-uC:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.Repositories\Properties\AssemblyInfo.cs
+t
+rC:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.ViewModel\Properties\AssemblyInfo.cs

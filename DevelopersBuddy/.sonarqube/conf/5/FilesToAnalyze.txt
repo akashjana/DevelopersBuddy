@@ -1,9 +1,1 @@
-﻿C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.DomainModel\Answer.cs
-C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.DomainModel\Category.cs
-C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.DomainModel\DevelopersBuddyDatabaseDbContext.cs
-C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.DomainModel\Properties\AssemblyInfo.cs
-C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.DomainModel\Question.cs
-C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.DomainModel\User.cs
-C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.DomainModel\Vote.cs
-C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.DomainModel\App.config
-C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.DomainModel\packages.config
+﻿C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.ServiceLayer\Properties\AssemblyInfo.cs

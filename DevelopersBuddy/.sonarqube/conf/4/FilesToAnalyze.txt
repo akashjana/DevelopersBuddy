@@ -1,1 +1,5 @@
-﻿C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.ServiceLayer\Properties\AssemblyInfo.cs
+﻿C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.Repositories\CategoriesRepository.cs
+C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.Repositories\Properties\AssemblyInfo.cs
+C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.Repositories\UsersRepository.cs
+C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.Repositories\App.config
+C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.Repositories\packages.config

@@ -1,14 +1,14 @@
- 
-uC:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.Repositories\Properties\AssemblyInfo.cs
+
+rC:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.ViewModel\Properties\AssemblyInfo.cs
 [ 
 assembly 	
 :	 
 
 AssemblyTitle 
 ( 
-$str >
-)> ?
-]? @
+$str ;
+); <
+]< =
 [		 
 assembly		 	
 :			 
@@ -58,9 +58,9 @@ uC:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.R
 
 AssemblyProduct 
 ( 
-$str @
-)@ A
-]A B
+$str =
+)= >
+]> ?
 [ 
 assembly 	
 :	 

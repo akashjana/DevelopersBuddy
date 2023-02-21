@@ -1,3 +1,3 @@
-™
-uC:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.Repositories\Properties\AssemblyInfo.csj !"r	
+–
+rC:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.ViewModel\Properties\AssemblyInfo.csj !"r	
 #$

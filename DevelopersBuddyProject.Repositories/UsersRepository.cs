@@ -45,7 +45,7 @@ namespace DevelopersBuddyProject.Repositories
 
         public List<User> GetUsers()
         {
-            List<User> users = db.Users.Where(x => x.IsAdmin == false).OrderBy(x => x.Name).ToList();
+            List<User> users = db.Users.Where(x => !x.IsAdmin).OrderBy(x => x.Name).ToList();
             return users;
         }
 

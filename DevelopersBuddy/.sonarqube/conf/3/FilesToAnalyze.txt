@@ -1,1 +1,1 @@
-﻿C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.Repositories\Properties\AssemblyInfo.cs
+﻿C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.ViewModel\Properties\AssemblyInfo.cs

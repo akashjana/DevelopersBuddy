@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <ProjectName>DevelopersBuddyProject.ViewModel</ProjectName>
+  <ProjectName>DevelopersBuddy.Tests</ProjectName>
   <ProjectLanguage>C#</ProjectLanguage>
-  <ProjectType>Product</ProjectType>
-  <ProjectGuid>ef703c76-0fca-40b9-8ac7-29e266fdecc9</ProjectGuid>
-  <FullPath>C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddyProject.ViewModel\DevelopersBuddyProject.ViewModel.csproj</FullPath>
+  <ProjectType>Test</ProjectType>
+  <ProjectGuid>310cebc9-0292-4f6b-83f9-ea4f79e977e1</ProjectGuid>
+  <FullPath>C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddy.Tests\DevelopersBuddy.Tests.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
     <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\akash\Desktop\DevelopersBuddy\DevelopersBuddy\DevelopersBuddy\.sonarqube\conf\2\FilesToAnalyze.txt" />
