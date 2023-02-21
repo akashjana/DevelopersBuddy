@@ -43,5 +43,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DevelopersBuddyProject.DomainModel\DevelopersBuddyProject.DomainModel.csproj">
+      <Project>{5a6fb663-899e-45b8-8d53-6c0bbf50d0ad}</Project>
+      <Name>DevelopersBuddyProject.DomainModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

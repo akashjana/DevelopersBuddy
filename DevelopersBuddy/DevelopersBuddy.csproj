@@ -143,6 +143,12 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DevelopersBuddyProject.DomainModel\DevelopersBuddyProject.DomainModel.csproj">
+      <Project>{5a6fb663-899e-45b8-8d53-6c0bbf50d0ad}</Project>
+      <Name>DevelopersBuddyProject.DomainModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
