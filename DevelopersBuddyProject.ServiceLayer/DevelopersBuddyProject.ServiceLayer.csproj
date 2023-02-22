@@ -52,6 +52,10 @@
       <Project>{a4f343bf-3bd4-4575-bba9-be5a87909553}</Project>
       <Name>DevelopersBuddyProject.Repositories</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DevelopersBuddyProject.ViewModel\DevelopersBuddyProject.ViewModel.csproj">
+      <Project>{ef703c76-0fca-40b9-8ac7-29e266fdecc9}</Project>
+      <Name>DevelopersBuddyProject.ViewModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

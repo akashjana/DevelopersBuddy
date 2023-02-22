@@ -148,6 +148,10 @@
       <Project>{5a6fb663-899e-45b8-8d53-6c0bbf50d0ad}</Project>
       <Name>DevelopersBuddyProject.DomainModel</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DevelopersBuddyProject.ViewModel\DevelopersBuddyProject.ViewModel.csproj">
+      <Project>{ef703c76-0fca-40b9-8ac7-29e266fdecc9}</Project>
+      <Name>DevelopersBuddyProject.ViewModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
