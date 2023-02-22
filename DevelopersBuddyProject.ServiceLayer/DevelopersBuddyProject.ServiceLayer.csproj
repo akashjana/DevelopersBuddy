@@ -48,6 +48,10 @@
       <Project>{5a6fb663-899e-45b8-8d53-6c0bbf50d0ad}</Project>
       <Name>DevelopersBuddyProject.DomainModel</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DevelopersBuddyProject.Repositories\DevelopersBuddyProject.Repositories.csproj">
+      <Project>{a4f343bf-3bd4-4575-bba9-be5a87909553}</Project>
+      <Name>DevelopersBuddyProject.Repositories</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
