@@ -21,6 +21,10 @@ namespace DevelopersBuddyProject.ViewModel
         public string ConfirmPassword { get; set; }
 
         [Required]
+        [RegularExpression(@"^[a-zA-Z]*$")]
+        public string Name { get; set; }
+
+        [Required]
         public string Mobile { get; set; }
     }
 }
