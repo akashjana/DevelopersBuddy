@@ -45,7 +45,6 @@ namespace DevelopersBuddyProject.ServiceLayer
             IMapper mapper = config.CreateMapper();
             List<UserViewModel> userViewModels = mapper.Map<List<User>, List<UserViewModel>>(users);
             return userViewModels;
-
         }
 
         public UserViewModel GetUsersByEmail(string email)
