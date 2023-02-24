@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DevelopersBuddyProject.ViewModel
 {
-    class EditUserPasswordViewModel
+    public class EditUserPasswordViewModel
     {
         [Required]
         public int UserId { get; set; }
