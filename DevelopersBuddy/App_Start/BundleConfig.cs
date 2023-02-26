@@ -12,8 +12,8 @@ namespace DevelopersBuddy
         {
             bundles.Add(new ScriptBundle("~/Scripts/bootstrap")
                 .Include("~/Scripts/jquery-3.6.3.js", "~/Scripts/umd/popper.js", "~/Scripts/bootstrap.js"));
-            bundles.Add(new ScriptBundle("~/Styles/bootstrap").Include("~/Content/bootstrap.css"));
-            bundles.Add(new ScriptBundle("~/Styles/site").Include("~/Content/Style.css"));
+            bundles.Add(new StyleBundle("~/Styles/bootstrap").Include("~/Content/bootstrap.css"));
+            bundles.Add(new StyleBundle("~/Styles/site").Include("~/Content/Style.css"));
             BundleTable.EnableOptimizations = true;
         }
     }

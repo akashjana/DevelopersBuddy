@@ -1,34 +1,29 @@
-﻿@using System.Web.Optimization;
-
+﻿@using System.Web.Optimization
 
 <!DOCTYPE html>
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>@ViewBag.Title - Developers Buddy</title>
     @Styles.Render("~/Styles/bootstrap")
     @Styles.Render("~/Styles/site")
-    @Styles.Render("~/Scripts/bootstrap")
+    @Scripts.Render("~/Scripts/bootstrap")
 </head>
 <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-sm text-light navbar-dark">
-            <a class="navbar-brand" href="#">DevelopersBuddy</a>
+        <nav class="navbar navbar-expand-sm text-light navbar-light">
+            <a class="navbar-brand" href="#">StackOverflow</a>
+
+
             <button class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavBar">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="collapsibleNavBar">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
                         <a class="nav-link" href="/home/index">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/home/allquestions">Questions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/home/categories">Categories</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/home/about">About</a>
@@ -36,9 +31,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/home/contact">Contact</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/home/index">Home</a>
-                    </li>
+
                     @if (Session["CurrentUserName"] == null)
                     {
                         <li class="nav-item">
@@ -48,14 +41,23 @@
                             <a class="nav-link" href="/account/register">Register</a>
                         </li>
                     }
+
                     @if (Session["CurrentUserName"] != null)
                     {
+                        <li class="nav-item">
+                            <a class="nav-link" href="/home/categories">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/allquestions">Questions</a>
+                        </li>
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-                                <img src="~/images/user.png" style="width:20px"/>
+                                <img src="~/Images/user.png" width="20px" />
+                                @Session["CurrentUserName"]
                             </a>
                             <div class="dropdown-menu bg-info">
-                                <a class="dropdown-item" href="/account/logoout">Logout</a>
+                                <a class="dropdown-item" href="/account/logout">Logout</a>
                                 <a class="dropdown-item" href="/account/changeprofile">Change Profile</a>
                                 <a class="dropdown-item" href="/account/changepassword">Change Password</a>
                             </div>
@@ -63,15 +65,13 @@
                     }
                 </ul>
             </div>
-            <form class="form-check-inline" action="/home/search">
-                <input type="search" class="form-control mr-sm-2" style="width:150px" placeholder="Search" name="str" />
+
+            <form class="form-inline" action="/home/search">
+                <input type="search" class="form-control mr-sm-2" style="width:150px" placeholder="Search" name="str">
                 <button class="btn btn-success">Search</button>
             </form>
         </nav>
         @RenderBody()
-        @*<div>
-            @RenderBody()
-        </div>*@
     </div>
 </body>
 </html>
