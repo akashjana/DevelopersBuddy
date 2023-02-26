@@ -1,11 +1,11 @@
 ﻿@model DevelopersBuddyProject.ViewModel.QuestionViewModel
 <tr>
-    <td><span class="badge badge-secondary">@Model.VotesCount</span> Votes</td>
-    <td><span class="badge badge-secondary">@Model.AnswersCount</span> Answers</td>
-    <td><span class="badge badge-secondary">@Model.ViewsCount</span> Views</td>
+    <td><span class="badge bg-secondary">@Model.VotesCount</span> Votes</td>
+    <td><span class="badge bg-secondary">@Model.AnswersCount</span> Answers</td>
+    <td><span class="badge bg-secondary">@Model.ViewsCount</span> Views</td>
     <td class="text-dark">
-        <a href="/questions/view/@Model.QuestionId">@Model.QuestionName</a><br />
-    <td><span class="badge badge-primary">@Model.Category.CategoryName</span></td>
+        <a class="text-decoration-none text-black" href="/questions/view/@Model.QuestionId">@Model.QuestionName</a><br />
+    <td><span class="badge bg-secondary">@Model.Category.CategoryName</span></td>
     <td>
         @if (Convert.ToInt32(Session["CurrentUserId"]) != Model.UserId)
         {
