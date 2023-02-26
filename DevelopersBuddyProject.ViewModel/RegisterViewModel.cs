@@ -10,7 +10,7 @@ namespace DevelopersBuddyProject.ViewModel
     public class RegisterViewModel
     {
         [Required]
-        [RegularExpression(@"(\w+@[a-zA-Z_]+?\[a-zA-Z]{2,6})")]
+        [RegularExpression(@"(\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,6})")]
         public string Email { get; set; }
 
         [Required]
@@ -21,7 +21,7 @@ namespace DevelopersBuddyProject.ViewModel
         public string ConfirmPassword { get; set; }
 
         [Required]
-        [RegularExpression(@"^[a-zA-Z]*$")]
+        [RegularExpression(@"^[a-zA-Z ]*$")]
         public string Name { get; set; }
 
         [Required]

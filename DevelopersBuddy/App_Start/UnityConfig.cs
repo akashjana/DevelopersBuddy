@@ -17,6 +17,7 @@ namespace DevelopersBuddy
             
             container.RegisterType<IQuestionsService, QuestionsService>();
             container.RegisterType<ICategoriesService, CategoriesService>();
+            container.RegisterType<IUsersService, UsersService>();
             DependencyResolver.SetResolver(new Unity.Mvc5.UnityDependencyResolver(container));
             
             GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
