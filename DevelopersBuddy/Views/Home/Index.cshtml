@@ -1,4 +1,5 @@
-﻿@{ 
+﻿@model List<DevelopersBuddyProject.ViewModel.QuestionViewModel>
+@{ 
     ViewBag.Title = "Home";
 }
 <div class="container-fluid">
@@ -11,4 +12,21 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <table class="table-striped">
+                @foreach (var item in Model)
+                {
+                    Html.RenderPartial("Question", item);
+                }
+            </table>
+            @if (Session["CurrentUserName"] != null)
+            {
+                <a href="/questions/create" class="btn btn-primary">Add Question</a>
+            }
+        </div>
+    </div>
 </div>
+<script>
+    $("a[href='/home/index']").attr("id", "active");
+</script>
