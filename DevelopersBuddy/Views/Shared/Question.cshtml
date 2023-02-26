@@ -5,7 +5,8 @@
     <td><span class="badge bg-secondary">@Model.ViewsCount</span> Views</td>
     <td class="text-dark">
         <a class="text-decoration-none text-black" href="/questions/view/@Model.QuestionId">@Model.QuestionName</a><br />
-    <td><span class="badge bg-secondary">@Model.Category.CategoryName</span></td>
+        <span class="badge bg-secondary">@Model.Category.CategoryName</span>
+    </td>
     <td>
         @if (Convert.ToInt32(Session["CurrentUserId"]) != Model.UserId)
         {
